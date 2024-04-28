@@ -30,9 +30,9 @@ data models, and handling user requests.
 To run the Perusable application locally, follow these steps:
 
 1. Clone this repository to your local machine.
+1. Create a virtual environment.
 1. Install the required dependencies listed in the requirements.txt file.
-1. Configure your database settings in the Django settings.py file.
-1. Ensure Elasticsearch is installed and configured properly.
+1. Run the containers for the database and application using docker compose.
 1. Run migrations to create the necessary database schema.
 1. Populate the database with sample wine data.
 1. Start the Django development server.
