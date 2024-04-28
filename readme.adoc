@@ -30,15 +30,15 @@ data models, and handling user requests.
 To run the Perusable application locally, follow these steps:
 
 1. Clone this repository to your local machine.
-1. Create a virtual environment.
-1. Install the required dependencies listed in the requirements.txt file.
-1. Run the containers for the database and application using docker compose.
-1. Create the migrations.
+2. Create a virtual environment.
+3. Install the required dependencies listed in the requirements.txt file.
+4. Run the containers for the database and application using docker compose.
+5. Create the migrations.
 [source,bash]
 ----
 docker-compose exec server python manage.py makemigrations catalog
 ----
-1. Run migrations to create the necessary database schema.
-1. Populate the database with sample wine data.
-1. Start the Django development server.
-1. Access the application in your web browser and start exploring wines!
+6. Run migrations to create the necessary database schema.
+7. Populate the database with sample wine data.
+8. Start the Django development server.
+9. Access the application in your web browser and start exploring wines!
