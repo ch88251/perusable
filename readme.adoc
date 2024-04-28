@@ -1,0 +1,39 @@
+:imagesdir: images
+
+= Perusable
+
+== Overview
+Perusable is a demonstration application showcasing the integration of full-text search capabilities using both Postgres and Elasticsearch within a Django framework. This application focuses on providing a seamless search experience for wine enthusiasts, allowing them to explore and discover wines from around the world.
+
+== Features
+
+* *Full-Text Search*: Utilizes the power of Postgres and Elasticsearch to enable efficient full-text search functionality.
+
+* *Wine Database*: Curates a comprehensive database of wines, including 
+information about regions, grape varieties, vintages, and more.
+
+* *User-Friendly Interface*: Offers a user-friendly interface created with React 
+for searching and browsing wines, making it easy for users to find the exact 
+wines they desire.
+
+== Technologies Used
+
+* *Django*: The web framework for building the application's backend, managing 
+data models, and handling user requests.
+
+* *Postgres*: Serves as the primary relational database management system for storing wine-related data and metadata.
+
+* *Elasticsearch*: Provides powerful full-text search capabilities, enhancing the search experience by enabling fast and accurate retrieval of relevant wine information.
+
+== Getting Started
+
+To run the Perusable application locally, follow these steps:
+
+1. Clone this repository to your local machine.
+1. Install the required dependencies listed in the requirements.txt file.
+1. Configure your database settings in the Django settings.py file.
+1. Ensure Elasticsearch is installed and configured properly.
+1. Run migrations to create the necessary database schema.
+1. Populate the database with sample wine data.
+1. Start the Django development server.
+1. Access the application in your web browser and start exploring wines!
