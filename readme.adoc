@@ -39,6 +39,9 @@ To run the Perusable application locally, follow these steps:
 docker-compose exec server python manage.py makemigrations catalog
 ----
 6. Run migrations to create the necessary database schema.
+----
+docker-compose exec server python manage.py migrate
+----
 7. Populate the database with sample wine data.
 8. Start the Django development server.
 9. Access the application in your web browser and start exploring wines!
